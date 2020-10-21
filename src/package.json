@@ -1,6 +1,6 @@
 {
 	"name": "nativescript-ngx-shadow",
-	"version": "7.0.1",
+	"version": "7.0.2",
 	"description": "Nativescript Angular Shadow",
 	"main": "ngx-shadow",
 	"typings": "index.d.ts",

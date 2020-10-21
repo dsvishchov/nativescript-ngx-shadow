@@ -59,7 +59,7 @@ export class Shadow {
         pressedTranslationZ: (data as AndroidData).pressedTranslationZ || Shadow.DEFAULT_PRESSED_ELEVATION,
         shadowColor: (data as IOSData).shadowColor ||
           Shadow.DEFAULT_SHADOW_COLOR,
-        useShadowPath: ((data as IOSData).useShadowPath !== undefined ? (data as IOSData).useShadowPath : true),
+        useShadowPath: ((data as IOSData).useShadowPath !== undefined ? (data as IOSData).useShadowPath : false),
         rasterize: ((data as IOSData).rasterize !== undefined ? (data as IOSData).rasterize : false)
       },
     );
@@ -204,7 +204,7 @@ export class Shadow {
         parseFloat(String(data.shadowRadius)) :
         0.66 * elevation - 0.5;
     nativeView.layer.shouldRasterize = data.rasterize;
-    nativeView.layer.rasterizationScale = Screen.mainScreen.scale;
+    //nativeView.layer.rasterizationScale = Screen.mainScreen.scale;
     let shadowPath = null;
     if (data.useShadowPath) {
       shadowPath = UIBezierPath.bezierPathWithRoundedRectCornerRadius(nativeView.bounds, nativeView.layer.shadowRadius).CGPath;
