@@ -1,5 +1,5 @@
 {
-	"name": "nativescript-ngx-shadow",
+	"name": "@dsvishchov/nativescript-ngx-shadow",
 	"version": "7.0.2",
 	"description": "Nativescript Angular Shadow",
 	"main": "ngx-shadow",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mapo80/nativescript-ngx-shadow.git"
+		"url": "https://github.com/dsvishchov/nativescript-ngx-shadow.git"
 	},
 	"scripts": {
 		"tsc": "npm i && ts-patch install && tsc",
@@ -40,14 +40,14 @@
 		"iOS"
 	],
 	"author": {
-		"name": "mapo80",
-		"email": "mapo80@gmail.com"
+		"name": "Dmitry Svishchov",
+		"email": "dsvishchov@gmail.com"
 	},
 	"bugs": {
-		"url": "https://github.com/map80/nativescript-ngx-shadow/issues"
+		"url": "https://github.com/dsvishchov/nativescript-ngx-shadow/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/mapo80/nativescript-ngx-shadow",
+	"homepage": "https://github.com/dsvishchov/nativescript-ngx-shadow",
 	"devDependencies": {
 		"@angular/common": "^10.1.0",
 		"@angular/compiler": "^10.1.0",
