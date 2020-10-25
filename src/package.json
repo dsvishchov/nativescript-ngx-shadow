@@ -1,6 +1,6 @@
 {
 	"name": "@dsvishchov/nativescript-ngx-shadow",
-	"version": "7.0.2",
+	"version": "7.0.3",
 	"description": "Nativescript Angular Shadow",
 	"main": "ngx-shadow",
 	"typings": "index.d.ts",
@@ -66,7 +66,8 @@
 		"typescript": "3.9.7"
 	},
 	"dependencies": {
-		"ts-node": "^9.0.0"
+		"ts-node": "^9.0.0",
+		"typescript": "3.9.7"
 	},
 	"bootstrapper": "nativescript-plugin-seed"
 }
